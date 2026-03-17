@@ -1,0 +1,73 @@
+
+html {
+    background-color: lightgrey;
+}
+
+body {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+body * {
+    text-align: center;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p, label, button, textarea, select, option, input {
+    font-size: 1.5rem;
+}
+
+textarea {
+    text-align: left;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+button:hover {
+    transition-duration: 0.5s;
+    background-color: deepskyblue;
+}
+
+footer {
+    color: lightgrey;
+}
+
+div#feedback {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hidden {
+    display: none;
+}

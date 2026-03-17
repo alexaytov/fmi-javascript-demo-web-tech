@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Provide Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Provide Feedback</h1>
+    </header>
+
+    <main>
+        <h2>How was your experience?</h2>
+        <p>Please let us know how we can improve our service.</p>
+        <form>
+            <label for="feedback">Your Feedback:</label><br>
+            <div id="feedback">
+                <select id="feedback-selector">
+                    <option value="university">University</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+                <div id="teacher-container" class="hidden">
+                    <label for="teacher">Teacher:</label>
+                    <input type="text" id="teacher" name="teacher" placeholder="Enter the teacher's name">
+                </div>
+                <textarea id="feedback-textarea" name="feedback" rows="4" cols="50"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Feedback Inc.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
